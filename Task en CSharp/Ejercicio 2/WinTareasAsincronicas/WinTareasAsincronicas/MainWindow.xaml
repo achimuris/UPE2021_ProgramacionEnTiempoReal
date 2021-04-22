@@ -1,0 +1,16 @@
+﻿<Window x:Class="WinTareasAsincronicas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WinTareasAsincronicas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnActivaDesactivaImagen" Content="Activa/Desactiva imagen" HorizontalAlignment="Left" Margin="43,260,0,0" VerticalAlignment="Top" Width="214" Click="BtnActivaDesactivaImagen_Click"/>
+        <Button x:Name="btnUnaFoto" HorizontalAlignment="Left" Height="74" Margin="365,143,0,0" VerticalAlignment="Top" Width="222" Content="SIN TEXTO" ></Button>
+        <Button x:Name="btnProcesoPesadoSincronico" Content="Ejecutar proceso pesado sincronico" HorizontalAlignment="Left" Margin="43,105,0,0" VerticalAlignment="Top" Width="214" Click="BtnProcesoPesadoSincronico_Click"/>
+        <Button x:Name="btnProcesoPesadoAsincronico" Content="Ejecutar proceso pesado asincronico" HorizontalAlignment="Left" Margin="43,173,0,0" VerticalAlignment="Top" Width="214" Click="BtnProcesoPesadoAsincronico_Click"/>
+
+    </Grid>
+</Window>
